@@ -1,35 +1,22 @@
-# 기술 스택 및 버전
+# Releasy: 사내 릴리즈 노트 공유 웹 서비스
 
-## 1. 개발 환경
-- **Kakao I Cloud**
+## 개요
 
-## 2. 개발 도구
-- **IntelliJ** (Spring Boot)
-- **Visual Studio Code** (React)
+"Releasy"는 릴리즈 노트 공유를 쉽고 빠르게 작성하고 팀원들과 공유할 수 있으며, 프로젝트 중 발생하는 이슈에 대해서 빠르게 대처할 수 있는 웹 서비스입니다.
 
-## 3. 개발 언어
-### Front-end
-- **JavaScript**
-- **CSS**
-### Back-end
-- **Java**
-  - **JDK Version**: open-jdk-17
+## 주요 기능
 
-## 4. 개발 프레임워크
-- **Web server**: Nginx
-- **Web Application Server**: Spring Boot
-- **Database**: MySQL, Redis
-- **Infra**: Docker
+### 1. ChatGPT를 이용한 이슈 별 중요도 및 우선순위 추천 서비스
+- 프로젝트 중 발생한 이슈들의 목록에서 PM(Project Manager)이 ChatGPT를 통해 중요도와 우선순위를 추천받고 이를 적용합니다.
 
-## 5. 형상 관리 시스템
-- **CI/CD**: Jenkins
-### 협업 Tool
-- **GitHub**
+### 2. 드래그 앤 드롭(Drag and Drop)을 통한 칸반 보드(Kanban Board) 이슈 관리
+- 이슈를 드래그 앤 드롭을 통해 쉽게 관리할 수 있습니다.
 
-## 6. 주요 라이브러리
-### Front-end
-- **React**
-- **Mui**
-- **Bootstrap**
-### Back-end
-- **JsonWebToken**
+### 3. 트리 구조를 통한 하위 및 상위 이슈 시각화 및 관리
+- 트리 구조를 사용하여 하위 및 상위 이슈를 시각화하고 관리할 수 있습니다.
+
+### 4. 릴리즈 노트 버전 관리
+- 릴리즈 노트의 버전을 "메이저(Major)", "마이너(Minor)", "패치(Patch)"의 세 가지 요소로 구성합니다.
+- 트리 구조를 통해 이를 시각화하며, 사용자의 편의성을 증진합니다.
+
+
