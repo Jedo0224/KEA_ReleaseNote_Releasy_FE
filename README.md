@@ -19,4 +19,5 @@
 - 릴리즈 노트의 버전을 "메이저(Major)", "마이너(Minor)", "패치(Patch)"의 세 가지 요소로 구성합니다.
 - 트리 구조를 통해 이를 시각화하며, 사용자의 편의성을 증진합니다.
 
-
+### 5. 시연 영상
+https://www.youtube.com/watch?v=Qzu5EQ1IBpI&ab_channel=%EC%95%88%ED%95%B4%EB%B9%88
